@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--character encoding-->
+        <meta charset="UTF-8">
+        <!--title tag-->
+        <title>Shravya Sathi</title>
+        <!--make webpage responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--meta description-->
+        <meta name="description" content="A website about Shravya Sathi">
+        <!--w3 css-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--custom css-->
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--navigation-->
+        <div class="w3-bar w3-theme-l4">
+            <a href="#aboutme" class="w3-bar-item w3-button w3-bold"><b>About me</b></a>
+            <a href="#illinois" class="w3-bar-item w3-button w3-hide-small"><b>Illinois</b></a>
+            <a href="#max" class="w3-bar-item w3-button w3-hide-small"><b>Max</b></a>
+            <a href="#crosscountry" class="w3-bar-item w3-button w3-hide-small"><b>Cross Country</b></a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button">Illinois</a>
+            <a href="#" class="w3-bar-item w3-button">Dance</a>
+            <a href="#" class="w3-bar-item w3-button">Max</a>
+        </div>
+
+        
+        <!--title/aboutme-->
+        <div class="bgimg-1" id="aboutme">
+            <div class="caption">
+                <span class="border">Shravya Sathi</span>
+            </div>
+        </div>
+        <div style="color: #777;background-color:#f8e9e7;text-align:center;padding:50px 80px;">
+            <h3 style="text-align:center;"> About me</h3>
+            <p> My name is Shravya Sathi. I am a freshman at Andover High School. I was born in Illinois on November 20, 2003. I do cross country, track, and dance. I enjoy listening to music, going hiking, traveling, eating vanilla ice cream, and spending time with family and friends. I also have a dog named Max.</p>
+        </div>
+
+        
+        <!--illinois--> 
+        <div class="bgimg-2" id="illinois"></div>
+        <div style="color: #777;background-color:#f8e9e7;text-align:center;padding:50px 80px;">
+            <h3 style="text-align:center;"> Illinois </h3>
+            <p> I was born in born in Bloomginton, Illinois. We lived there for 2 years before moving to St.Louis in Missouri. When I was four we moved to Plainsboro, New Jersey. In 2011, when I was 8, we moved to Windham, New Hampshire. In 2013, we moved to Andover.</p>
+            <div class="w3-container">
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white">Learn about Illinois</button>
+                <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container">
+                             <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h3>Illinois</h3>
+                            <p>Illinois is a state in the Midwest region of the United States. It is the 6th most populous state. The capital of Illinois is Springfield which is located in and the center of the state. It's nickname is the Land of Lincoln. Illinois was the first state to ratify the 13th amendment to abolish slavery. Some fun facts are that the Ice Cream Sundae originated in Evanston, IL. The Nabisco Factory in Chicago is the world's largest bakery in the world at 1,800,000 feet squared. The world's tallest man, Robert Pershing Wadlow, who was 8'11", was born in Alton, IL. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+        <!--max--> 
+        <div class="bgimg-3" id="max"></div>
+        <div style="color: #777; background-color:#f8e9e7 ;text-align:center;padding:50px 80px;">
+            <h3 style="text-align:center;"> Max </h3>
+            <p> I have a dog named Max. His birthday is Febuary 14, 2012. He is 6 years old now. He is a malitpoo which is a mix between a maltese and a poodle. We got him when he was 3 years old. He jumps around a lot and he is a very happy dog.</p>
+        </div>
+
+
+        <!--cross country--> 
+        <div class="bgimg-4" id="crosscountry"></div>
+        <div style="text-align:center; w3-color-light; background-color:#f8e9e7; padding:50px 80px;" >
+            <h3 style="text-align:center;"> Cross Country</h3>
+            <p> I started running in 6th grade through AYS Cross Country. I didn't really like it at first, but then I started to enjoy it. So when I got to high school, I joined AHS Cross Country. I really enjoyed running with my friends even though it was an intense sport.</p>
+        </div>
+        
+        
+        <!--javascript--> 
+        <script src="js/nav.js"></script>
+        <script src="js/modal.js"></script>
+        
+    </body>
+</html>
